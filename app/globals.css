@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand-navy: #15162b;
+  --color-brand-navy2: #211e51;
+  --color-brand-purple: #5d28b8;
+  --color-brand-magenta: #c3219d;
+  --color-brand-pink: #ef3db5;
+  --color-brand-cyan: #38d9ee;
+  --color-brand-yellow: #f2dc57;
+  --color-brand-cream: #fbf9f6;
+  --color-brand-ink: #191a2c;
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-cond: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-brand-magenta);
+  color: #fff;
+}
